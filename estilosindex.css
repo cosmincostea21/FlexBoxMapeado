@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: grey;
+}
+
+main{
+    display: flex;
+    width: 600px;
+    background-color: lightgrey;
+    padding: 10px;
+    justify-content: space-around;
+    flex-wrap: wrap; /*Los elementos flex estan colocados en varias lineas*/
+
+}
+
+
+header{
+    background-color: white;
+    text-align: center;
+    font-weight: bold;
+    font-size: 15px;
+    width: 100%;
+}
+
+article{
+    background-color: aqua;
+    padding: 2%;
+    width: 67%;
+    text-align: justify;
+}
+
+aside{
+    background-color: blue;
+    padding: 2%;
+    color: white;
+    width: 25%;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
